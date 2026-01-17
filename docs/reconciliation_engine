@@ -1,0 +1,33 @@
+Daily Driver Utility: The Reconciliation Engine
+The app's primary utility is managing the discrepancy between when you work and when you are paid—a common source of SSA overpayment errors.
+
+W2 Effort Tracking: You log hours as they are worked, which is the actual legal standard for SSDI.
+
+1099 Cash Tracking: You log when the money hits your bank account, which is the flawed method the SSA often uses for audits.
+
+Variance Detection: If your employer's reported pay exceeds your calculated work by more than 5%, the app triggers a critical alert. This allows you to investigate the "dirty math" immediately instead of discovering it during an audit months later.
+
+"Safe Work" Dashboard Instrument
+The daily dashboard translates complex monthly dollar limits into an actionable "Safe Hours" readout.
+
+Actionable Time: It tells you exactly how many hours you can work before hitting a critical threshold, allowing you to work with confidence.
+
+Conservative Cushioning: In "Exploring Mode," the app uses a 5% safety cushion to pad your estimates, ensuring you stay under the limit even with minor tracking errors.
+
+Progressive Intensity: As you move toward the $1,690 SGA limit, the visual alerts shift from Green (Safe) to Yellow (Warning) and finally Red (Danger).
+
+The "Dirty Letter" Defense: SSA-Ready Exporting
+If the SSA sends a notice of overpayment, the app produces a high-fidelity audit trail designed to challenge their claims.
+
+The Audit Report: With one tap, the app generates an SSA-ready PDF.
+
+Verified Content: This report includes a 13-month earnings summary, verification for all daily work entries, and attached images of every relevant paystub.
+
+Technical Explanations: The export includes pre-written technical explanations for any detected variances, forcing the SSA to reconcile their data against your superior records.
+
+Modular Strategy for Legal Defenders
+The architecture is designed with a "Modular Route Tree" so it can be forked for other benefits like SSI or VA programs.
+
+Immutable Logging: Once "Defense Mode" is activated, logging becomes immutable and timestamped to prove "good faith" in a legal setting.
+
+Configurable Thresholds: Users or legal teams can adjust the SGA ($1,690) or TWP ($1,210) thresholds to match specific state or federal requirements.
